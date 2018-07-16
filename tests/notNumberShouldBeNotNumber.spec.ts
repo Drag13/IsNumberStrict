@@ -3,7 +3,8 @@ import isNumberStrict from '../src';
 const testData = [
     // tslint:disable-next-line:no-construct
     { value: new Number(Number.NEGATIVE_INFINITY)},
-    // { value: new Number(Number.POSITIVE_INFINITY)},
+    // tslint:disable-next-line:no-construct
+    { value: new Number(Number.POSITIVE_INFINITY)},
     { value: Number.NEGATIVE_INFINITY},
     { value: Number.POSITIVE_INFINITY},
     { value: Number.NaN},
