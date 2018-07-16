@@ -1,0 +1,56 @@
+{
+    "name": "is-number-strict",
+    "version": "0.0.1",
+    "description": "Tiny lib to check if passed argument is strictly number. Strings will not pass!",
+    "main": "index.min.js",
+    "dependencies": {},
+    "devDependencies": {
+        "@types/jasmine": "2.8.8",
+        "commitizen": "2.10.1",
+        "conventional-changelog": "2.0.1",
+        "conventional-changelog-cli": "2.0.1",
+        "husky": "0.14.3",
+        "jasmine": "3.1.0",
+        "karma": "2.0.4",
+        "karma-chrome-launcher": "2.2.0",
+        "karma-jasmine": "1.1.2",
+        "karma-typescript": "3.0.13",
+        "prettier": "1.13.7",
+        "puppeteer": "1.6.0",
+        "tslint": "5.10.0",
+        "typedoc": "0.11.1",
+        "typescript": "2.9.2",
+        "uglifyjs": "2.4.11"
+    },
+    "scripts": {
+        "test": "./node_modules/.bin/karma start",
+        "lint": "./node_modules/.bin/tslint -c tslint.json 'src/**/*.ts' 'tests/**/*.spec.ts'",
+        "prettier": "./node_modules/.bin/prettier --config .prettierrc.json --write src/**/*.ts",
+        "commit": "./node_modules/.bin/git-cz",
+        "doc": "./node_modules/.bin/typedoc --out dist/docs --readme ./README.md",
+        "changelog": "./node_modules/.bin/conventional-changelog -p angular -i CHANGELOG.md -s",
+        "build": "./node_modules/.bin/tsc --p ./ --sourceMap false",
+        "bundle": "./node_modules/.bin/uglifyjs ./dist/*.js --compress --mangle --output ./dist/index.min.js",
+        "precommit": "call npm run prettier && call npm run lint",
+        "prepush": "call npm run test",
+        "preversion": "npm run test",
+        "version": "call npm run clean && call npm run build && npm run bundle && call npm run doc && call npm run changelog && git add . && git commit -m 'changelogupdate' --no-verify",
+        "postversion": "git add . && git push --no-verify && git push --tags --no-verify",
+        "clean": "rmdir dist /S /Q",
+        "start": "npm run karma -- start --single-run false --auto-watch true"
+    },
+    "keywords": [
+        "number",
+        "typecheck",
+        "typeof",
+        "types",
+        "NaN"
+    ],
+    "author": "Drag13",
+    "license": "MIT",
+    "config": {
+        "commitizen": {
+            "path": "./node_modules/cz-conventional-changelog"
+        }
+    }
+}

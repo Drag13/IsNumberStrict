@@ -1,0 +1,22 @@
+sudo: required
+dist: trusty
+
+language: node_js
+
+node_js:
+  - stable
+
+addons:
+  chrome: stable
+
+before_install:
+  - npm i -g npm@6.1.0
+
+install:
+  - npm install
+
+script:
+  - npm test
+
+after_script: 
+  - bash <(curl -s https://codecov.io/bash)
