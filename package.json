@@ -30,21 +30,21 @@
         "uglifyjs": "2.4.11"
     },
     "scripts": {
-        "test": "./node_modules/.bin/karma start",
-        "lint": "./node_modules/.bin/tslint -c tslint.json 'src/**/*.ts' 'tests/**/*.spec.ts'",
-        "prettier": "./node_modules/.bin/prettier --config .prettierrc.json --write src/**/*.ts",
-        "commit": "./node_modules/.bin/git-cz",
-        "doc": "./node_modules/.bin/typedoc --out dist/docs --readme ./README.md",
-        "changelog": "./node_modules/.bin/conventional-changelog -p angular -i CHANGELOG.md -s",
-        "build": "./node_modules/.bin/tsc --p ./ --sourceMap false",
-        "bundle": "./node_modules/.bin/uglifyjs ./dist/*.js --compress --mangle --output ./dist/index.min.js",
-        "precommit": "call npm run prettier && call npm run lint",
+        "test": "karma start",
+        "lint": "tslint -c tslint.json 'src/**/*.ts' 'tests/**/*.spec.ts'",
+        "prettier": "prettier --config .prettierrc.json --write src/**/*.ts",
+        "commit": "git-cz",
+        "doc": "typedoc --out dist/docs --readme ./README.md",
+        "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s",
+        "build": "tsc --p ./ --sourceMap false",
+        "bundle": "uglifyjs ./dist/*.js --compress --mangle --output ./dist/index.min.js",
+        "precommit": "npm run prettier && npm run lint",
         "prepush": "call npm run test",
         "preversion": "npm run test",
         "version": "call npm run clean && call npm run build && npm run bundle && call npm run doc && call npm run changelog && git add . && git commit -m 'changelogupdate' --no-verify",
         "postversion": "git add . && git push --no-verify && git push --tags --no-verify",
         "clean": "rmdir dist /S /Q",
-        "start": "npm run karma -- start --single-run false --auto-watch true"
+        "start": "karma start --single-run false --auto-watch true"
     },
     "keywords": [
         "number",
