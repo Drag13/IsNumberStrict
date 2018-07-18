@@ -1,23 +1,27 @@
+/* tslint:disable: no-construct */
+
 import isNumberStrict from '../src';
 
 const testData = [
-    // tslint:disable-next-line:no-construct
-    { value: new Number(Number.NEGATIVE_INFINITY)},
-    // tslint:disable-next-line:no-construct
-    { value: new Number(Number.POSITIVE_INFINITY)},
-    { value: Number.NEGATIVE_INFINITY},
-    { value: Number.POSITIVE_INFINITY},
-    { value: Number.NaN},
-    { value: null},
-    { value: undefined},
-    { value: {}},
-    { value: new Object()},
-    { value: []},
-    { value: ''},
-    { value: '1'},
-    { value: 'a'},
-    { value: true},
-    { value: false},
+    { value: new Number(Number.NEGATIVE_INFINITY) },
+    { value: new Number(Number.POSITIVE_INFINITY) },
+    { value: new Number({}) },
+    { value: new Number(undefined) },
+    { value: new Number(NaN) },
+    { value: Number.NEGATIVE_INFINITY },
+    { value: Number.POSITIVE_INFINITY },
+    { value: Number.NaN },
+    { value: NaN },
+    { value: null },
+    { value: undefined },
+    { value: {} },
+    { value: new Object() },
+    { value: [] },
+    { value: '' },
+    { value: '1' },
+    { value: 'a' },
+    { value: true },
+    { value: false },
 ];
 
 describe('isNumber function', () => {

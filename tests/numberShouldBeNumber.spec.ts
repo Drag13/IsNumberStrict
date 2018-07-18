@@ -1,3 +1,5 @@
+/* tslint:disable: no-construct */
+
 import isNumberStrict from '../src';
 
 const testData = [
@@ -11,6 +13,10 @@ const testData = [
     { value: Number(50) },
     { value: 5e3 },
     { value: 0xff },
+    { value: new Number(5) },
+    { value: new Number(true) },
+    { value: new Number(null) },
+    { value: new Number([]) }, // converted to 0
 ];
 
 describe('isNumber function', () => {
