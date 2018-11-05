@@ -11,7 +11,7 @@
     ],
     "dependencies": {},
     "devDependencies": {
-        "@types/jasmine": "2.8.9",
+        "@types/jasmine": "2.8.10",
         "commitizen": "2.10.1",
         "conventional-changelog": "2.0.1",
         "conventional-changelog-cli": "2.0.7",
