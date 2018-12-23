@@ -1,3 +1,7 @@
+## [1.0.1](https://github.com/Drag13/IsNumberStrict/compare/v1.0.0...v1.0.1) (2018-12-23)
+
+
+
 # [1.0.0](https://github.com/Drag13/IsNumberStrict/compare/v0.1.0...v1.0.0) (2018-12-23)
 
 
