@@ -7,6 +7,32 @@
 
 Designed to strictly check if the value can be treated as a number. Works with Number objects, hex an so on. Returns false for strings and other not numbers like {}, undefined, NaN
 
+## Install
+
+```cmd
+npm i is-number-strict
+```
+
+## Usage
+
+JavaScript with require syntax
+
+```javascript
+const isNumber = require('is-number-strict').default;
+
+console.assert(isNumber(5));
+console.assert(!isNumber('5'));
+```
+
+JavaScript with import syntax
+
+```javascript
+import isNumber from "is-number-strict";
+
+console.assert(isNumber(5));
+console.assert(!isNumber('5'));
+```
+
 ## What problem it solves
 
 This tiny lib tries to make type assertion little bit more predictable and remove NaN from your calculations.
@@ -48,32 +74,6 @@ isNumberStrict(NaN);
 Yes, but 5 + '5' = '55' and 5 * '5' = NaN. I don't want to see NaN or '55' in my calculations.
 
 So if you want to have more predictable type checking - check my tests and welcome!
-
-## Install
-
-```cmd
-npm i is-number-strict
-```
-
-## Usage
-
-JavaScript with require syntax
-
-```javascript
-const isnumber = require('is-number-strict').default;
-
-console.assert(isnumber(5));
-console.assert(!isnumber('5'));
-```
-
-JavaScript with import syntax
-
-```javascript
-import isnumber from "is-number-strict";
-
-console.assert(isnumber(5));
-console.assert(!isnumber('5'));
-```
 
 ## Some wired cases
 
