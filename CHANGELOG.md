@@ -1,4 +1,4 @@
-## [1.0.3](https://github.com/Drag13/IsNumberStrict/compare/v1.0.2...v1.0.3) (2021-09-18)
+## [1.0.4](https://github.com/Drag13/IsNumberStrict/compare/v1.0.2...v1.0.3) (2021-09-18)
 
 
 ### Bug Fixes
