@@ -1,3 +1,12 @@
+## [1.0.3](https://github.com/Drag13/IsNumberStrict/compare/v1.0.2...v1.0.3) (2021-09-18)
+
+
+### Bug Fixes
+
+* **index.ts:** Updated dependencies to remove security complains ([e91fff6](https://github.com/Drag13/IsNumberStrict/commit/e91fff663a9254e33a1bc943e9ab67e2c450890d))
+
+
+
 ## [1.0.2](https://github.com/Drag13/IsNumberStrict/compare/v1.0.1...v1.0.2) (2020-06-23)
 
 
