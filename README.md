@@ -1,5 +1,7 @@
 # IsNumberStrict
 
+[![Weekly loads](https://img.shields.io/npm/dm/is-number-strict)](https://img.shields.io/npm/dm/is-number-strict)
+[![Minzipped size](https://img.shields.io/bundlephobia/minzip/is-number-strict)](https://img.shields.io/bundlephobia/minzip/is-number-strict)
 [![Build Status](https://travis-ci.org/Drag13/IsNumberStrict.svg?branch=master)](https://travis-ci.org/Drag13/IsNumberStrict)
 [![codecov](https://codecov.io/gh/Drag13/isnumberstrict/branch/master/graph/badge.svg)](https://codecov.io/gh/Drag13/isnumberstrict)
 [![TypeSCript](https://img.shields.io/badge/TypeScript-Ready-brightgreen.svg)](https://github.com/Drag13/IsNumberStrict)
@@ -63,7 +65,7 @@ isNumberStrict('5');
 > false
 ```
 
-And 
+And
 
 ```javascript
 isNumberStrict(NaN);
@@ -79,8 +81,8 @@ So if you want to have more predictable type checking - check my tests and welco
 
 > Why do you treat new Number([]) as a number?
 
-Because js will evaluate it to 0, and 0 is number.
+Because JS will evaluate it to 0, and 0 is number.
 
 > Why do you treat new number({}) as not a number?
 
-Because js will evaluate it to  NaN and NaN is not a number according to my purposes.
+Because JS will evaluate it to  NaN and NaN is not a number according to my purposes.
