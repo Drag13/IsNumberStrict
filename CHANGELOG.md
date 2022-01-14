@@ -1,3 +1,10 @@
+## [1.0.5](https://github.com/Drag13/IsNumberStrict/compare/v1.0.2...v1.0.5) (2022-01-14)
+
+
+### Bug Fixes
+
+* **Dev dependencies:** Updated dev dependencies to avoid npm audit complains ([02eec69](https://github.com/Drag13/IsNumberStrict/commit/02eec69c757b4e8129bfb7501aa3e7186ea3ffb7))
+
 ## [1.0.4](https://github.com/Drag13/IsNumberStrict/compare/v1.0.2...v1.0.3) (2021-09-18)
 
 
