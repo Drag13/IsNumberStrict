@@ -1,3 +1,14 @@
+## [1.0.6](https://github.com/Drag13/IsNumberStrict/compare/v1.0.2...v1.0.6) (2022-01-25)
+
+
+### Bug Fixes
+
+* **Dev dependencies:** Updated dev dependencies to avoid npm audit complains ([a7f7d93](https://github.com/Drag13/IsNumberStrict/commit/a7f7d93a1900a8998c476de0641b4e17d32e3d86))
+* **index.ts:** Updated dependencies to remove security complains ([5f1a5ea](https://github.com/Drag13/IsNumberStrict/commit/5f1a5eadd69919854620a35bebe78f85736b3145))
+* Updated dependenices to reduce security risks ([d441836](https://github.com/Drag13/IsNumberStrict/commit/d44183663fdae8e133baf90704c6aba0072102d8))
+
+
+
 ## [1.0.5](https://github.com/Drag13/IsNumberStrict/compare/v1.0.2...v1.0.5) (2022-01-14)
 
 
