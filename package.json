@@ -34,7 +34,7 @@
         "lint": "tslint -c tslint.json 'src/**/*.ts' 'tests/**/*.spec.ts'",
         "prettier": "prettier --config .prettierrc.json --write src/**/*.ts",
         "commit": "git-cz",
-        "doc": "typedoc --out dist/docs --readme ./README.md",
+        "doc": "typedoc src/index.ts --out dist/docs --readme ./README.md",
         "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s",
         "build": "tsc --p ./ --sourceMap false",
         "bundle": "uglifyjs ./dist/*.js --compress --mangle --output ./dist/index.min.js",
