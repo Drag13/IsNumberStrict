@@ -1,6 +1,6 @@
 {
     "name": "is-number-strict",
-    "version": "1.0.6",
+    "version": "1.0.7",
     "description": "Tiny lib to check if passed argument is strictly number. Strings will not pass!",
     "main": "./dist/index.min.js",
     "types": "./dist/index.d.ts",

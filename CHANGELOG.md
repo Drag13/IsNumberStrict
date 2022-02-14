@@ -1,3 +1,12 @@
+## [1.0.7](https://github.com/Drag13/IsNumberStrict/compare/v1.0.6...v1.0.7) (2022-02-14)
+
+
+### Bug Fixes
+
+* Updated dependencies to remove log4j vulnerability ([6bb973c](https://github.com/Drag13/IsNumberStrict/commit/6bb973cdb11e6d068449331e8f8f31b33665a087))
+
+
+
 ## [1.0.6](https://github.com/Drag13/IsNumberStrict/compare/v1.0.2...v1.0.6) (2022-01-25)
 
 
