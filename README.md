@@ -1,3 +1,4 @@
+![StandsWithUkraine](https://github.com/Drag13/drag13.github.io/blob/development/swu.PNG)
 # IsNumberStrict
 
 [![Weekly loads](https://img.shields.io/npm/dm/is-number-strict)](https://img.shields.io/npm/dm/is-number-strict)
