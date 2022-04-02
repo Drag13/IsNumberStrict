@@ -5,9 +5,7 @@
     "main": "./dist/index.min.js",
     "types": "./dist/index.d.ts",
     "files": [
-        "dist/",
-        "src/",
-        "tests/"
+        "dist/"
     ],
     "dependencies": {},
     "devDependencies": {
