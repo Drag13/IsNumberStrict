@@ -1,7 +1,7 @@
 [![StandsWithUkraine](https://github.com/Drag13/drag13.github.io/blob/development/swu.PNG)
 ](https://savelife.in.ua/en/donate/)
 
-# IsNumberStrict
+# IsNumberStrict - check if something is a number
 
 [![Weekly loads](https://img.shields.io/npm/dm/is-number-strict)](https://img.shields.io/npm/dm/is-number-strict)
 [![Minzipped size](https://img.shields.io/bundlephobia/minzip/is-number-strict)](https://img.shields.io/bundlephobia/minzip/is-number-strict)
