@@ -1,6 +1,6 @@
 ## [1.0.8](https://github.com/Drag13/IsNumberStrict/compare/v1.0.7...v1.0.8) (2022-04-02)
 
-
+* Security hotfix
 
 ## [1.0.7](https://github.com/Drag13/IsNumberStrict/compare/v1.0.6...v1.0.7) (2022-02-14)
 
