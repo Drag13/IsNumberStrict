@@ -10,7 +10,7 @@
 [![TypeSCript](https://img.shields.io/badge/TypeScript-Ready-brightgreen.svg)](https://github.com/Drag13/IsNumberStrict)
 [![GitHub license](https://img.shields.io/github/license/Drag13/WhenDo.svg)](https://github.com/Drag13/IsNumberStrict/blob/master/LICENSE)
 
-Designed to strictly check if the value can be treated as a number. Works with Number objects, hex an so on. Returns false for strings and other not numbers like {}, undefined, NaN
+Designed to strictly check if the value is a number. Works with Number objects, hex, and so on. Returns `false` for `string` and other not numbers like `{}`, `undefined`, `NaN`
 
 ## Install
 
